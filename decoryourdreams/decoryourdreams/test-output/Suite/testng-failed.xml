@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browserType" value="firefox"/>
+  <parameter name="url" value="http://www.decoryourdreams.com/"/>
+  <test name="decoryourdreamsTest(failed)">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.decoryourdreams.DecoryOurDreamsTest">
+        <methods>
+          <include name="checkContactUsEmail"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.decoryourdreams.DecoryOurDreamsTest -->
+    </classes>
+  </test> <!-- decoryourdreamsTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

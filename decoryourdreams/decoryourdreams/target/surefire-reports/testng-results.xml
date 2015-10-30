@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Site is up and running.]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Menu page is working fine.]]>
+    </line>
+    <line>
+      <![CDATA[About Us Menu page is working fine.]]>
+    </line>
+    <line>
+      <![CDATA[Contact Us Menu page is working fine.]]>
+    </line>
+    <line>
+      <![CDATA[Hidden Facts Menu page is working fine.]]>
+    </line>
+    <line>
+      <![CDATA[Contact Us Menu page is working fine.]]>
+    </line>
+    <line>
+      <![CDATA[Email service working fine.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44509" started-at="2015-10-30T15:40:05Z" finished-at="2015-10-30T15:40:49Z">
+    <groups>
+    </groups>
+    <test name="decoryourdreamsTest" duration-ms="44509" started-at="2015-10-30T15:40:05Z" finished-at="2015-10-30T15:40:49Z">
+      <class name="com.decoryourdreams.DecoryOurDreamsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="setUp" is-config="true" duration-ms="5515" started-at="2015-10-30T11:40:05Z" finished-at="2015-10-30T11:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.decoryourdreams.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkSiteStatus()[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="checkSiteStatus" duration-ms="12" started-at="2015-10-30T11:40:10Z" finished-at="2015-10-30T11:40:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Site is up and running.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSiteStatus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="afterMethod" is-config="true" duration-ms="7" started-at="2015-10-30T11:40:10Z" finished-at="2015-10-30T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="setUp" is-config="true" duration-ms="4873" started-at="2015-10-30T11:40:10Z" finished-at="2015-10-30T11:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.decoryourdreams.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkAllMenus()[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="checkAllMenus" duration-ms="14868" started-at="2015-10-30T11:40:15Z" finished-at="2015-10-30T11:40:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome Menu page is working fine.]]>
+            </line>
+            <line>
+              <![CDATA[About Us Menu page is working fine.]]>
+            </line>
+            <line>
+              <![CDATA[Contact Us Menu page is working fine.]]>
+            </line>
+            <line>
+              <![CDATA[Hidden Facts Menu page is working fine.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkAllMenus -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="afterMethod" is-config="true" duration-ms="9" started-at="2015-10-30T11:40:30Z" finished-at="2015-10-30T11:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="setUp" is-config="true" duration-ms="10609" started-at="2015-10-30T11:40:30Z" finished-at="2015-10-30T11:40:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.decoryourdreams.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkContactUsEmail()[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="checkContactUsEmail" duration-ms="8595" started-at="2015-10-30T11:40:41Z" finished-at="2015-10-30T11:40:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact Us Menu page is working fine.]]>
+            </line>
+            <line>
+              <![CDATA[Email service working fine.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContactUsEmail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@11bbf1ca]" name="afterMethod" is-config="true" duration-ms="11" started-at="2015-10-30T11:40:49Z" finished-at="2015-10-30T11:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.decoryourdreams.DecoryOurDreamsTest -->
+    </test> <!-- decoryourdreamsTest -->
+  </suite> <!-- Suite -->
+</testng-results>

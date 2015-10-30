@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Contact Us Menu page is working fine.]]>
+    </line>
+    <line>
+      <![CDATA[Email service working fine.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13344" started-at="2015-10-30T14:42:57Z" finished-at="2015-10-30T14:43:10Z">
+    <groups>
+    </groups>
+    <test name="decoryourdreamsTest" duration-ms="13344" started-at="2015-10-30T14:42:57Z" finished-at="2015-10-30T14:43:10Z">
+      <class name="com.decoryourdreams.DecoryOurDreamsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@16290fbc]" name="setUp" is-config="true" duration-ms="5157" started-at="2015-10-30T10:42:57Z" finished-at="2015-10-30T10:43:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.decoryourdreams.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkContactUsEmail()[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@16290fbc]" name="checkContactUsEmail" duration-ms="8161" started-at="2015-10-30T10:43:02Z" finished-at="2015-10-30T10:43:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact Us Menu page is working fine.]]>
+            </line>
+            <line>
+              <![CDATA[Email service working fine.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContactUsEmail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.decoryourdreams.DecoryOurDreamsTest@16290fbc]" name="afterMethod" is-config="true" duration-ms="15" started-at="2015-10-30T10:43:10Z" finished-at="2015-10-30T10:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.decoryourdreams.DecoryOurDreamsTest -->
+    </test> <!-- decoryourdreamsTest -->
+  </suite> <!-- Suite -->
+</testng-results>

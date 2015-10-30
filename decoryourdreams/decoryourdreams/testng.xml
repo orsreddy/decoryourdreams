@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<parameter name="url" value="http://www.decoryourdreams.com/" />
+	<test name="decoryourdreamsTest">
+		<parameter name="browserType" value="firefox" />
+		<classes>
+			<class name="com.decoryourdreams.DecoryOurDreamsTest">
+				<methods>
+					<include name="checkSiteStatus"></include>
+					<include name="checkAllMenus"></include>
+					<include name="checkContactUsEmail"></include>
+
+				</methods>
+
+			</class>
+		</classes>
+	</test> <!-- decoryourdreamsTest -->
+</suite> <!-- Suite -->
